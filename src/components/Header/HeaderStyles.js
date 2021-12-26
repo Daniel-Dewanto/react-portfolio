@@ -17,6 +17,9 @@ export const Container = styled.div`
     grid-row-gap: 0.5rem;
   }
 `;
+export const Span = styled.span`
+  font-size: 2rem;
+`;
 export const Div1 = styled.div`
   grid-area: 1 / 1 / 2 / 2;
   display: flex;
@@ -113,6 +116,7 @@ export const NavProductsIcon = styled(IoIosArrowDropdown)`
 export const SocialIcons = styled.a`
 transition: 0.3s ease;
 color: white;
+margin-bottom: 
 border-radius: 50px;
   padding: 8px;
 &:hover {
