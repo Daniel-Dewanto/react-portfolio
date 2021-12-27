@@ -107,6 +107,11 @@ justify-content: space-around;
 padding: 2rem;
 `
 export const Tag = styled.li`
+transition: 0.2s ease-in-out;
 color: #d8bfbf;
-font-size: 1.5rem;
+font-size: 2rem;
+&:hover{
+  color: #FAED27;
+  text-shadow: 0 5px 15px rgba(145, 92, 182, .4);
+}
 `

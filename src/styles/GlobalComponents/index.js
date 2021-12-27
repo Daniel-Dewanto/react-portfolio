@@ -52,6 +52,11 @@ export const SectionTitle = styled.h2`
     padding: ${(props) => props.main ? '16px 0 8px' : '0'};
     max-width: 100%;
   }
+  span:hover{
+    transition: 0.2s ease-in-out;
+    text-shadow: 2px 2px #ffbd61;
+    
+  }
 `
 
 export const SectionText = styled.p`
