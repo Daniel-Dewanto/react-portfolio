@@ -44,6 +44,7 @@ const Timeline = () => {
 
   return (
     <Section id="about">
+      <SectionDivider />
       <SectionTitle main>About Me</SectionTitle>
       <SectionText>
         I am currently a student studying in Monash University to get my Bachelor's Degree in Information Technology. I am very passionate in programming and web development in particular. This portfolio is aimed to highlight my progress.
