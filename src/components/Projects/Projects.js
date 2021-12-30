@@ -3,6 +3,7 @@ import React from 'react';
 import { BlogCard, CardInfo, ExternalLinks, GridContainer, HeaderThree, Hr, Tag, TagList, TitleContent, UtilityList, Img } from './ProjectsStyles';
 import { Section, SectionDivider, SectionTitle } from '../../styles/GlobalComponents';
 import { projects } from '../../constants/constants';
+import { projectDescriptions } from '../../constants/constant_descriptions';
 
 
 
@@ -31,6 +32,10 @@ const Projects = () => (
               ))}
             </TagList>
           </div>
+          <UtilityList>
+            <ExternalLinks href={visit}>Code</ExternalLinks>
+            <ExternalLinks href={source}>Source</ExternalLinks>
+          </UtilityList>
         </BlogCard>
       ))}
     </GridContainer>
