@@ -23,7 +23,7 @@ export const projects = [
       image: '../images/portfolio_homepage.png',
       tags: ['React', 'Next.js'],
     source: 'https://google.com',
-    visit: 'https://google.com',
+    visit: '#',
     id: 2,
   },
   // {
@@ -40,9 +40,9 @@ export const projects = [
 export const TimeLineData = [
   { year: 'Oct 2020', text: 'Started my programming journey in Monash University', },
   { year: 'Jan 2021', text: 'Finished my first ever project of creating a simple console game using C++', },
-  { year: 'Jul 2021', text: 'Received my Diploma of Information Technology from Monash College while receiving 2 Academic Merit Award()', },
+  { year: 'Jul 2021', text: 'Received my Diploma of Information Technology from Monash College while receiving 2 Academic Merit Awards', },
   { year: 'Aug 2021', text: 'Joined the largest Indonesian Student Organization in Australia, volunteering under their IT Department', },
-  { year: 'Sept 2021', text: '', },
+  { year: 'Present 2022', text: 'Started project HandHelp while simultaneously learning Flutter', },
 ];
 
 export const AcomplishmentData = [
